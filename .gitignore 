@@ -1,0 +1,43 @@
+### Node template
+# Logs
+logs
+*.log
+*.log.gz
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+dist/*
+!dist/.gitkeep
+
+# Compiled documentation
+docs/*
+!docs/swagger.js
+!docs/doc.yaml
+!docs/swagger.yaml
+!docs/airasia.png
+# Dependency directories
+node_modules
+
+.idea
+.vscode
+*.iml
+.npmrc
+
+# Mac OS stuff
+.DS_Store
+
+# Environment variables
+.env*
+!.env.*.encrypted
+
+# Unit testing output
+.nyc_output/*
+coverage
+
+
